@@ -26,3 +26,8 @@ const objOutputMessage = {
 const randomIndex = num => {
     return Math.floor(Math.random() * num);
 };
+
+// Define random messages to combine
+const string1 = objOutputMessage.actionType[randomIndex(objOutputMessage.actionType.length)];
+const string2 = objOutputMessage.actionAct[randomIndex(objOutputMessage.actionAct.length)];
+const string3 = objOutputMessage.actionModifier[randomIndex(objOutputMessage.actionModifier.length)];

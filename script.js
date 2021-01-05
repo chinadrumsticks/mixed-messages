@@ -19,6 +19,10 @@ const objOutputMessage = {
         'as a workaround', 
         'as a last resort'
     ]
-    
+
 };
 
+// Funtion for getting a random index number
+const randomIndex = num => {
+    return Math.floor(Math.random() * num);
+};

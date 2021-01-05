@@ -31,3 +31,6 @@ const randomIndex = num => {
 const string1 = objOutputMessage.actionType[randomIndex(objOutputMessage.actionType.length)];
 const string2 = objOutputMessage.actionAct[randomIndex(objOutputMessage.actionAct.length)];
 const string3 = objOutputMessage.actionModifier[randomIndex(objOutputMessage.actionModifier.length)];
+
+// Log the complete random message to the console
+console.log(string1, string2, string3)
